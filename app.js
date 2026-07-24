@@ -389,7 +389,7 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbo
     { src: 'Portfolio/Reels/القيمة العادلة (2).mp4', poster: 'Portfolio/Reels/Cover/القيمة العادلة (2).png', title: 'القيمة العادلة (2)' },
     { src: 'Portfolio/Reels/القيمة العادلة (3).mp4', poster: 'Portfolio/Reels/Cover/القيمة العادلة (3).jpg', title: 'القيمة العادلة (3)' },
     { src: 'Portfolio/Reels/القيمة العادلة (4).mp4', poster: 'Portfolio/Reels/Cover/القيمة العادلة (4).jpg', title: 'القيمة العادلة (4)' },
-    { src: 'Portfolio/Reels/شهادة الـ18%.mp4', poster: 'Portfolio/Reels/Cover/شهادة الـ18%.jpg', title: '%شهادة الـ18' },
+    { src: 'Portfolio/Reels/شهادة الـ18.mp4', poster: 'Portfolio/Reels/Cover/شهادة الـ18.jpg', title: '%شهادة الـ18' },
     { src: 'Portfolio/Reels/قصه بشمهندس احمد.mp4', poster: 'Portfolio/Reels/Cover/قصه بشمهندس احمد.jpg', title: 'قصه بشمهندس احمد' },
     { src: 'Portfolio/Reels/يعني اية توزيعات ارباح او كوبونات.mp4', poster: 'Portfolio/Reels/Cover/يعني اية توزيعات ارباح او كوبونات.jpg', title: 'يعني اية توزيعات ارباح او كوبونات' }
   ];
