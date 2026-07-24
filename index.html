@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karam Shama Sayed | Graphic Designer</title>
+  <meta name="description" content="Karam Shama Sayed - Professional Graphic Designer 10+ years. Print, Branding, Social Media. Giza, Egypt." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="KARAM LOGO Black.png" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" onclick="closeLightbox()"><i class="fas fa-times"></i></button>
+  <img src="" id="lbImg" class="lb-img" alt="" /><div class="lb-caption" id="lbCaption"></div>
+</div>
+<nav class="nav" id="nav">
+  <a href="#home" class="nav-logo"><img src="KARAM LOGO White.png" alt="Karam Shama Logo" class="logo-img" /></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li><li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+  </ul>
+  <button class="burger" id="burger" aria-label="menu"><span></span><span></span><span></span></button>
+</nav>
+<div class="mob-menu" id="mobMenu">
+  <a href="#about" class="mn">About</a><a href="#skills" class="mn">Skills</a>
+  <a href="#experience" class="mn">Experience</a><a href="#portfolio" class="mn">Portfolio</a>
+  <a href="#contact" class="mn">Contact</a>
+</div>
+<section class="hero" id="home">
+  <!-- Olive Neon Glow Background Orbs -->
+  <div class="neon-orb neon-orb-1"></div>
+  <div class="neon-orb neon-orb-2"></div>
+  <div class="neon-grid-pattern"></div>
+
+  <div class="hero-content-wrapper">
+    <!-- Top Meta Row: Badge + Visitor Counter -->
+    <div class="hero-top-meta">
+      <div class="neon-pill-badge">
+        <span class="neon-dot"></span>
+        <span class="badge-txt">HIGH LEVEL</span>
+      </div>
+
+      <!-- Visitor Counter Pill -->
+      <div class="visitor-neon-pill">
+        <i class="fas fa-eye"></i>
+        <span id="visitorCount">0</span>
+        <span class="v-label">VISITORS</span>
+      </div>
+    </div>
+
+    <!-- Central Grid: Typography + Portrait Frame + Info -->
+    <div class="hero-cyber-grid">
+      <!-- Left Column: Headline & Subtitles -->
+      <div class="hero-left-col">
+        <div class="hero-tagline">
+          <i class="fas fa-sparkles"></i> GRAPHIC DESIGNER
+        </div>
+        <h1 class="hero-main-title">
+          KARAM <span class="neon-accent-text">SHAMA</span>
+        </h1>
+        <p class="hero-description">
+          Crafting high-impact <strong>Advertising Campaigns</strong>, iconic <strong>Visual Identities</strong>, editorial <strong>Print & Book Designs</strong>, and pre-press prep with 10+ years of creative leadership.
+        </p>
+
+        <!-- CTAs -->
+        <div class="hero-cta-group">
+          <a href="#portfolio" class="neon-btn-primary">
+            <span>Explore Works</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="neon-btn-secondary">
+            <i class="fas fa-paper-plane"></i>
+            <span>Let's Talk</span>
+          </a>
+        </div>
+
+        <!-- Social App Icons Dock -->
+        <div class="app-icons-dock">
+          <span class="dock-title">QUICK CONNECT</span>
+          <div class="dock-icons">
+            <a href="https://behance.net/Ka_Ram" target="_blank" class="app-icon-btn behance" title="Behance Portfolio" aria-label="Behance">
+              <i class="fab fa-behance"></i>
+            </a>
+            <a href="https://wa.me/201145908553" target="_blank" class="app-icon-btn whatsapp" title="WhatsApp Chat" aria-label="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="tel:01145908553" class="app-icon-btn phone" title="Call Direct (01145908553)" aria-label="Phone">
+              <i class="fas fa-phone-alt"></i>
+            </a>
+            <a href="mailto:karams.sayed@gmail.com" class="app-icon-btn email" title="Send Email" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="#about" class="app-icon-btn location" title="Giza, Egypt" aria-label="Location">
+              <i class="fas fa-map-marker-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Architectural Luxury Arch Portal -->
+      <div class="hero-right-col">
+        <div class="luxury-portal-container">
+          <!-- Ambient Arch Glow Behind -->
+          <div class="portal-arch-glow"></div>
+          
+          <!-- Corner Tech Brackets -->
+          <div class="portal-corner-brackets">
+            <span class="c-bracket top-left"></span>
+            <span class="c-bracket top-right"></span>
+            <span class="c-bracket bottom-left"></span>
+            <span class="c-bracket bottom-right"></span>
+          </div>
+
+          <!-- Floating Micro Badges -->
+          <div class="floating-badge badge-top-right">
+            <i class="fas fa-award"></i>
+            <span>10+ Yrs Exp</span>
+          </div>
+          <div class="floating-badge badge-bottom-left">
+            <i class="fas fa-palette"></i>
+            <span>20+ Designers Trained</span>
+          </div>
+
+          <!-- Main Arch Frame Box -->
+          <div class="arch-photo-frame">
+            <div class="glass-sheen-overlay"></div>
+            <img src="Photo.png" alt="Karam Shama" class="hero-portrait-img" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Marquee Ticker -->
+    <div class="hero-bottom-ticker">
+      <div class="ticker-track">
+        <span>Advertising Designs</span> <i class="fas fa-square"></i>
+        <span>Social Media Designs</span> <i class="fas fa-square"></i>
+        <span>Visual Identity Design</span> <i class="fas fa-square"></i>
+        <span>Print Design</span> <i class="fas fa-square"></i>
+        <span>Brochure and Book Design</span> <i class="fas fa-square"></i>
+        <span>Package Designs</span> <i class="fas fa-square"></i>
+        <span>Vector Art Drawing</span> <i class="fas fa-square"></i>
+        <span>Arabization Art</span> <i class="fas fa-square"></i>
+        <span>Video Editing</span> <i class="fas fa-square"></i>
+        <span>Photo Manipulation</span> <i class="fas fa-square"></i>
+        <span>Motion Graphics</span> <i class="fas fa-square"></i>
+        <!-- Duplicate for continuous scroll loop -->
+        <span>Advertising Designs</span> <i class="fas fa-square"></i>
+        <span>Social Media Designs</span> <i class="fas fa-square"></i>
+        <span>Visual Identity Design</span> <i class="fas fa-square"></i>
+        <span>Print Design</span> <i class="fas fa-square"></i>
+        <span>Brochure and Book Design</span> <i class="fas fa-square"></i>
+        <span>Package Designs</span> <i class="fas fa-square"></i>
+        <span>Vector Art Drawing</span> <i class="fas fa-square"></i>
+        <span>Arabization Art</span> <i class="fas fa-square"></i>
+        <span>Video Editing</span> <i class="fas fa-square"></i>
+        <span>Photo Manipulation</span> <i class="fas fa-square"></i>
+        <span>Motion Graphics</span> <i class="fas fa-square"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="si">
+    <div class="sec-label"><div class="sec-line"></div><span class="sec-tag">About Me</span></div>
+    <h2 class="sec-title fu">WHO I AM</h2>
+    <div class="about-grid">
+      <div class="about-text fu">
+        <p>I am <strong>Karam Shama Sayed</strong>, a passionate <strong>Graphic Designer</strong> based in Giza, Egypt, with over <strong>10 years of professional experience</strong> spanning print, digital, branding, and advertising design.</p>
+        <p>My expertise covers <strong>Print Design, Visual Identity, Social Media, Brochure and Book Design, Package Design, and Advertising Campaigns</strong>. I have managed entire design departments and personally trained over <strong>20 designers</strong>.</p>
+        <p>Fully proficient in the <strong>Adobe Creative Suite</strong> including Photoshop, Illustrator, InDesign, Acrobat Pro, and CapCut Pro, from concept to final print-ready delivery.</p>
+        <p>Beyond design, I bring strong <strong>computer hardware expertise</strong> including assembly, maintenance, and troubleshooting, making me a uniquely versatile professional.</p>
+        <div class="about-list">
+          <div class="al-item"><i class="fas fa-map-marker-alt"></i><span>Ard El Lewaa, Giza, Egypt</span></div>
+          <div class="al-item"><i class="fas fa-graduation-cap"></i><span>Faculty of Law, Helwan University 2019</span></div>
+          <div class="al-item"><i class="fas fa-briefcase"></i><span>Open for Freelance, Part-Time and Full-Time</span></div>
+          <div class="al-item"><i class="fab fa-behance"></i><span>behance.net/Ka_Ram</span></div>
+        </div>
+      </div>
+      <div class="stats-grid fu">
+        <div class="stat"><div class="stat-n" data-target="10" data-suffix="+">10+</div><div class="stat-l">Years of Experience</div></div>
+        <div class="stat"><div class="stat-n" data-target="20" data-suffix="+">20+</div><div class="stat-l">Designers Trained</div></div>
+        <div class="stat"><div class="stat-n" data-target="5" data-suffix="">5</div><div class="stat-l">Companies Worked</div></div>
+        <div class="stat"><div class="stat-n" data-target="100" data-suffix="%">100%</div><div class="stat-l">Client Satisfaction</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skills" id="skills">
+  <div class="si">
+    <div class="sec-label"><div class="sec-line"></div><span class="sec-tag">Skills and Tools</span></div>
+    <h2 class="sec-title fu">MY EXPERTISE</h2>
+    <div class="skills-grid">
+      <div class="fu">
+        <div class="skills-gtitle">Software</div>
+        <div class="sk-item" data-l="5"><span class="sk-name">Acrobat Pro</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="5"><span class="sk-name">Photoshop</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="5"><span class="sk-name">Illustrator</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="5"><span class="sk-name">CapCut Pro</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="5"><span class="sk-name">Microsoft Office</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="4"><span class="sk-name">InDesign</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="4"><span class="sk-name">Premiere Pro</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="3"><span class="sk-name">Adobe Audition</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="2"><span class="sk-name">After Effects</span><div class="sk-dots"></div></div>
+      </div>
+      <div class="fu">
+        <div class="skills-gtitle">Design</div>
+        <div class="sk-item" data-l="5"><span class="sk-name">Advertising Designs</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="5"><span class="sk-name">Social Media Designs</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="5"><span class="sk-name">Visual Identity Design</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="5"><span class="sk-name">Print Design</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="5"><span class="sk-name">Brochure and Book Design</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="5"><span class="sk-name">Package Designs</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="4"><span class="sk-name">Vector Art Drawing</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="4"><span class="sk-name">Arabization Art</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="4"><span class="sk-name">Video Editing</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="3"><span class="sk-name">Photo Manipulation</span><div class="sk-dots"></div></div>
+        <div class="sk-item" data-l="2"><span class="sk-name">Motion Graphics</span><div class="sk-dots"></div></div>
+      </div>
+    </div>
+    <div class="skills-hw fu">
+      <div class="skills-gtitle" style="margin-top:0">Computer Hardware and Maintenance</div>
+      <div class="hw-grid">
+        <div>
+          <div class="sk-item" data-l="5"><span class="sk-name">PC Assembly</span><div class="sk-dots"></div></div>
+          <div class="sk-item" data-l="5"><span class="sk-name">Hardware Troubleshooting</span><div class="sk-dots"></div></div>
+        </div>
+        <div>
+          <div class="sk-item" data-l="5"><span class="sk-name">Software Installation</span><div class="sk-dots"></div></div>
+          <div class="sk-item" data-l="5"><span class="sk-name">Computer Maintenance</span><div class="sk-dots"></div></div>
+        </div>
+        <div>
+          <div class="sk-item" data-l="4"><span class="sk-name">PC Accessories</span><div class="sk-dots"></div></div>
+          <div class="sk-item" data-l="5"><span class="sk-name">OS Setup and Config</span><div class="sk-dots"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="experience" id="experience">
+  <div class="si">
+    <div class="sec-label"><div class="sec-line"></div><span class="sec-tag">Work History</span></div>
+    <h2 class="sec-title fu">EXPERIENCE</h2>
+    <div class="timeline">
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-date">2025 - 2026</div><div class="tl-title">Graphic Designer</div><div class="tl-company">Top Screen for Color Separation</div><div class="tl-loc"><i class="fas fa-map-marker-alt"></i> Cairo, Egypt</div><ul class="tl-desc"><li>Preparing and finalizing designs for printing and digital publishing</li><li>Pre-pressing: bleed margins, crop marks, folds, color separation</li><li>Technical quality review: image resolution and file format accuracy</li><li>Size adaptation: one design into dozens of formats for multiple platforms</li><li>Preparing promotional products, boxes, and cartons for printing</li></ul></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-date">2023 - 2025</div><div class="tl-title">Design Department Manager</div><div class="tl-company">New Graphics</div><div class="tl-loc"><i class="fas fa-map-marker-alt"></i> Cairo, Egypt</div><ul class="tl-desc"><li>Managing and distributing tasks across the design team</li><li>Training 20+ new designers on design rules and Adobe tools</li><li>Designing brochures, flyers, magazines, books, social media, banners</li></ul></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-date">2021 - 2025</div><div class="tl-title">Media Buyer and Advertisement Design</div><div class="tl-company">Freelance</div><div class="tl-loc"><i class="fas fa-map-marker-alt"></i> Cairo, Egypt</div><ul class="tl-desc"><li>Creating and managing ad campaigns on Instagram, Facebook, and TikTok</li><li>Designing and montaging advertisements for marketing pages</li><li>Creating and implementing full social media marketing plans</li></ul></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-date">2021 - 2023</div><div class="tl-title">Graphic Designer</div><div class="tl-company">New Graphics</div><div class="tl-loc"><i class="fas fa-map-marker-alt"></i> Cairo, Egypt</div><ul class="tl-desc"><li>Executing design tasks per company identity requirements</li><li>Reviewing price quotes, supply orders, and customer forms</li><li>File preparation and sending to CTP department</li></ul></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-date">2016 - 2022</div><div class="tl-title">Graphic Designer</div><div class="tl-company">Labeb Press Co.</div><div class="tl-loc"><i class="fas fa-map-marker-alt"></i> Giza, Egypt</div><ul class="tl-desc"><li>Transforming teacher data into innovative educational designs</li><li>Creating notebooks, posters, social media ads, books, publications</li><li>Color separation, master printing, and file preparation</li></ul></div>
+    </div>
+  </div>
+</section>
+<section class="portfolio" id="portfolio">
+  <div class="si">
+    <div class="sec-header-wrap fu">
+      <div>
+        <div class="sec-label"><div class="sec-line"></div><span class="sec-tag">Social Media Designs</span></div>
+        <h2 class="sec-title" style="margin-bottom:12px;">SOCIAL MEDIA POSTS</h2>
+      </div>
+      <div class="cf-controls">
+        <button class="cf-nav-btn" id="smPrev" aria-label="Previous"><i class="fas fa-arrow-left"></i></button>
+        <button class="cf-nav-btn" id="smNext" aria-label="Next"><i class="fas fa-arrow-right"></i></button>
+      </div>
+    </div>
+
+    <!-- Clean Horizontal Carousel Container for All Social Media Posts -->
+    <div class="portfolio-carousel-wrapper" id="smCarouselWrapper">
+      <div class="portfolio-carousel" id="smCarousel">
+        <!-- Rendered by JavaScript dynamically -->
+      </div>
+    </div>
+
+    <!-- MONTAG CAROUSEL -->
+    <div class="sec-header-wrap fu" style="margin-top: 64px;">
+      <div>
+        <div class="sec-label"><div class="sec-line"></div><span class="sec-tag">Montag &amp; Video Editing</span></div>
+        <h2 class="sec-title" style="margin-bottom:12px;">MONTAG</h2>
+      </div>
+      <div class="cf-controls">
+        <button class="cf-nav-btn" id="reelsPrev" aria-label="Previous Reel"><i class="fas fa-arrow-left"></i></button>
+        <button class="cf-nav-btn" id="reelsNext" aria-label="Next Reel"><i class="fas fa-arrow-right"></i></button>
+      </div>
+    </div>
+
+    <div class="portfolio-carousel-wrapper reels-carousel-wrapper" id="reelsCarouselWrapper">
+      <div class="portfolio-carousel reels-carousel" id="reelsCarousel">
+        <!-- Video Reels rendered dynamically by JavaScript -->
+      </div>
+    </div>
+
+    <!-- OTHER PORTFOLIO CATEGORIES -->
+    <div class="port-cats fu">
+      <!-- PRINT DESIGN -->
+      <div class="port-cat-section">
+        <div class="port-cat-title"><span class="pcat-big">Print Design</span><span class="port-cat-count">6 pieces</span></div>
+        <div class="port-grid">
+          <div class="pcard" onclick="openLB('Portfolio/Print Design/Flyers v1-01.jpg','Print Design')"><div class="pimg"><img src="Portfolio/Print Design/Flyers v1-01.jpg" alt="Flyers Design Vol.1" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Print Design</div><div class="ptitle">Flyers Design Vol.1</div></div></div>
+          <div class="pcard" onclick="openLB('Portfolio/Print Design/Letterhead V1-01.jpg','Print Design')"><div class="pimg"><img src="Portfolio/Print Design/Letterhead V1-01.jpg" alt="Letterhead Design" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Print Design</div><div class="ptitle">Letterhead Design</div></div></div>
+          <div class="pcard" onclick="openLB('Portfolio/Print Design/Post Card-01.jpg','Print Design')"><div class="pimg"><img src="Portfolio/Print Design/Post Card-01.jpg" alt="Post Card" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Print Design</div><div class="ptitle">Post Card</div></div></div>
+          <div class="pcard" onclick="openLB('Portfolio/Print Design/calender v11-01.jpg','Print Design')"><div class="pimg"><img src="Portfolio/Print Design/calender v11-01.jpg" alt="Calendar Design" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Print Design</div><div class="ptitle">Calendar Design</div></div></div>
+          <div class="pcard" onclick="openLB('Portfolio/Print Design/Vol .2 -01.jpg','Print Design')"><div class="pimg"><img src="Portfolio/Print Design/Vol .2 -01.jpg" alt="Flyers Design Vol.2" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Print Design</div><div class="ptitle">Flyers Design Vol.2</div></div></div>
+          <div class="pcard" onclick="openLB('Portfolio/Print Design/Vol.1-01 (2).jpg','Print Design')"><div class="pimg"><img src="Portfolio/Print Design/Vol.1-01 (2).jpg" alt="Notebook Designs" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Print Design</div><div class="ptitle">Notebook Designs</div></div></div>
+        </div>
+      </div>
+
+      <!-- VISUAL IDENTITY -->
+      <div class="port-cat-section">
+        <div class="port-cat-title"><span class="pcat-big">Visual Identity</span><span class="port-cat-count">3 pieces</span></div>
+        <div class="port-grid port-grid-3">
+          <div class="pcard" onclick="openLB('Portfolio/Visual Identity/Egychem visual identity.jpg','Visual Identity')"><div class="pimg"><img src="Portfolio/Visual Identity/Egychem visual identity.jpg" alt="Egychem Co." loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Visual Identity</div><div class="ptitle">Egychem Co.</div></div></div>
+          <div class="pcard" onclick="openLB('Portfolio/Visual Identity/Money Talk-01.jpg','Visual Identity')"><div class="pimg"><img src="Portfolio/Visual Identity/Money Talk-01.jpg" alt="Money Talks" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Visual Identity</div><div class="ptitle">Money Talks</div></div></div>
+          <div class="pcard" onclick="openLB('Portfolio/Visual Identity/NABD ALMUASHIR.jpg','Visual Identity')"><div class="pimg"><img src="Portfolio/Visual Identity/NABD ALMUASHIR.jpg" alt="Nabd AlMuashir" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Visual Identity</div><div class="ptitle">Nabd AlMuashir</div></div></div>
+        </div>
+      </div>
+
+      <!-- BROCHURE & BOOK -->
+      <div class="port-cat-section">
+        <div class="port-cat-title"><span class="pcat-big">Brochure &amp; Book Design</span><span class="port-cat-count">4 pieces</span></div>
+        <div class="port-grid">
+          <div class="pcard" onclick="openLB('Portfolio/Brochure &amp; Book/Brochure V1-01.jpg','Brochure')"><div class="pimg"><img src="Portfolio/Brochure &amp; Book/Brochure V1-01.jpg" alt="Brochure Vol.1" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Brochure</div><div class="ptitle">Brochure Vol.1</div></div></div>
+          <div class="pcard" onclick="openLB('Portfolio/Brochure &amp; Book/Vol.1-01 (4).jpg','Book Design')"><div class="pimg"><img src="Portfolio/Brochure &amp; Book/Vol.1-01 (4).jpg" alt="Book Vol.1" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Book Design</div><div class="ptitle">Book Vol.1</div></div></div>
+          <div class="pcard" onclick="openLB('Portfolio/Brochure &amp; Book/Vol.1-02.jpg','Book Design')"><div class="pimg"><img src="Portfolio/Brochure &amp; Book/Vol.1-02.jpg" alt="Book Vol.2" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Book Design</div><div class="ptitle">Book Vol.2</div></div></div>
+          <div class="pcard" onclick="openLB('Portfolio/Brochure &amp; Book/Vol.2-01.jpg','Brochure')"><div class="pimg"><img src="Portfolio/Brochure &amp; Book/Vol.2-01.jpg" alt="Brochure Vol.2" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Brochure</div><div class="ptitle">Brochure Vol.2</div></div></div>
+        </div>
+      </div>
+
+      <!-- PACKAGE DESIGN & ADVERTISING -->
+      <div class="port-cat-section">
+        <div class="port-cat-title"><span class="pcat-big">Package Design &amp; Advertising</span><span class="port-cat-count">3 pieces</span></div>
+        <div class="port-grid port-grid-3">
+          <div class="pcard" onclick="openLB('Portfolio/Package Design/Vol.1-01.jpg','Package Design')"><div class="pimg"><img src="Portfolio/Package Design/Vol.1-01.jpg" alt="Product Packaging" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Packaging</div><div class="ptitle">Product Packaging</div></div></div>
+          <div class="pcard" onclick="openLB('Portfolio/Advertising/Vol.1-01 (3).jpg','Advertising')"><div class="pimg"><img src="Portfolio/Advertising/Vol.1-01 (3).jpg" alt="Roll-up designs" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Advertising</div><div class="ptitle">Roll-up designs</div></div></div>
+          <div class="pcard" onclick="openLB('Portfolio/Advertising/banners V1-01.jpg','Advertising')"><div class="pimg"><img src="Portfolio/Advertising/banners V1-01.jpg" alt="Banners V1" loading="lazy" /><div class="poverlay"><i class="fas fa-expand-alt"></i></div></div><div class="pinfo"><div class="pcat">Advertising</div><div class="ptitle">Banners V1</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <div class="si">
+    <div class="sec-label"><div class="sec-line"></div><span class="sec-tag">Get In Touch</span></div>
+    <h2 class="sec-title fu">CONTACT</h2>
+    <div class="contact-grid">
+      <div class="fu">
+        <div class="c-title">LETS WORK TOGETHER</div>
+        <p class="c-sub">Have a project in mind? Available for full-time, part-time, and remote opportunities.</p>
+        <div class="c-items">
+          <a href="tel:+201145908553" class="c-item"><div class="c-icon"><i class="fas fa-phone"></i></div><div class="c-detail"><span class="c-lbl">Phone</span><span class="c-val">011 459 08 553</span></div></a>
+          <a href="mailto:karams.sayed@gmail.com" class="c-item"><div class="c-icon"><i class="fas fa-envelope"></i></div><div class="c-detail"><span class="c-lbl">Email</span><span class="c-val">karams.sayed@gmail.com</span></div></a>
+          <a href="https://www.behance.net/Ka_Ram" target="_blank" class="c-item"><div class="c-icon"><i class="fab fa-behance"></i></div><div class="c-detail"><span class="c-lbl">Behance</span><span class="c-val">behance.net/Ka_Ram</span></div></a>
+          <a href="https://www.facebook.com/karamshsayed" target="_blank" class="c-item"><div class="c-icon"><i class="fab fa-facebook-f"></i></div><div class="c-detail"><span class="c-lbl">Facebook</span><span class="c-val">fb.com/karamshsayed</span></div></a>
+          <div class="c-item"><div class="c-icon"><i class="fas fa-map-marker-alt"></i></div><div class="c-detail"><span class="c-lbl">Location</span><span class="c-val">Ard El Lewaa, Giza, Egypt</span></div></div>
+        </div>
+      </div>
+      <div class="c-form fu">
+        <div class="cf-title">SEND A MESSAGE</div>
+        <form id="cform" onsubmit="sendMsg(event)">
+          <div class="fg"><label for="fn">Your Name</label><input type="text" id="fn" placeholder="Your full name" required /></div>
+          <div class="fg"><label for="fe">Your Email</label><input type="email" id="fe" placeholder="your@email.com (optional)" /></div>
+          <div class="fg"><label for="fs">Subject</label><input type="text" id="fs" placeholder="Project inquiry" /></div>
+          <div class="fg"><label for="fm">Message</label><textarea id="fm" placeholder="Tell me about your project..." required></textarea></div>
+          <button type="submit" class="cf-btn" id="cfBtn"><i class="fab fa-whatsapp" style="margin-right:8px;font-size:1.05rem;"></i>Send via WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="foot-wrap">
+    <img src="KARAM LOGO White.png" alt="Karam Shama Logo" class="foot-logo-img" />
+    <div class="foot-copy">2025 Karam Shama Sayed - All rights reserved.</div>
+    <div class="foot-soc">
+      <a href="https://www.behance.net/Ka_Ram" target="_blank"><i class="fab fa-behance"></i></a>
+      <a href="https://www.facebook.com/karamshsayed" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="mailto:karams.sayed@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
